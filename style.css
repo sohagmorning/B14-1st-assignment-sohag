@@ -86,7 +86,22 @@ body{
 
 .banner{
     position: relative;
+    overflow: hidden;
     
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.45) 25%,
+        rgba(0, 0, 0, 0.10) 55%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 1;
+    pointer-events: none;
 }
 .banner img{
     
@@ -105,6 +120,7 @@ body{
     width: 100%;
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .banner-text h3{
