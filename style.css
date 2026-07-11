@@ -5,11 +5,9 @@ body{
 }
 
 *{
-  
     margin:0;
     padding:0;
 }
-
 
 .container{
     max-width: 1200px;
@@ -97,11 +95,11 @@ body{
     color: white;
 }
 
-.banner-text h1{
+.banner-text h3{
     
     margin: 0;
-    font-size: 80px;
-    font-weight: 800px;
+    font-size: 50px;
+    font-weight: 700px;
      white-space: nowrap;
      font-weight:bold;
   
@@ -366,18 +364,26 @@ h1{
   color: #fff;
   border: 1px solid rgba(255,255,255,0.2);
 }
+.site-footer{
+    background-color: #0b192c;
+padding: 20px 0;
+  width: 100%;
+font-family: sans-serif;
+}
+.footer-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.copyright {
+  color: #8a99ad; 
+  font-size: 14px;
+  margin: 0;
+}
 
 
 
