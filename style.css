@@ -270,15 +270,15 @@ h1{
 }
 
 .community-section{
-    padding:100px 0;
-    background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+    padding:80px 0;
+    background: linear-gradient(180deg, #ffffff 0%);
 }
 
 .co-community{
     width: min(1120px, calc(100% - 48px));
         margin: 0 auto;
         display: grid;
-        gap: 24px;
+        gap: 5px;
 }
 .section-header{
    text-align:center;
